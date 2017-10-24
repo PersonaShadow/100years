@@ -1,0 +1,188 @@
+﻿capital = 126
+
+oob = "ENG_1900"
+
+set_research_slots = 4
+set_convoys = 1000
+set_national_unity = 0.75
+
+set_technology = {
+	
+}
+
+add_ideas = {
+
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = RAJ
+		puppet = CAN
+		puppet = AST
+		puppet = NZL
+	}
+}
+puppet = OMA
+puppet = NEP
+puppet = BHU
+
+set_politics = {
+
+	parties = {
+		fascist = {					#BUF+/A-GU/BEU
+			popularity = 0
+		}
+		democratic = {
+			popularity = 0.8		#conserative+labour+liberal+progressive/greens+social_liberal
+		}
+		monarchist = {
+			popularity = 0.09
+		}
+		communist = {				#CPGB
+			popularity = 0.01
+		}
+		
+	}
+	
+	ruling_party = democratic
+	last_election = "1895.8.12"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Seymour Henry Bathurst"
+	picture = "Nick_Griffin.dds"
+	ideology = fascist_ideology
+}
+create_country_leader = {
+	name = "Robert Gascoyne-Cecil"
+	picture = "Peter_Taaffey.dds"
+	ideology = democratic
+}	
+create_country_leader = {
+	name = "Victoria"
+	picture = "Elizabeth.dds"
+	ideology = monarchist
+}
+	
+create_country_leader = {
+	name = "Tom Mann"
+	picture = "Robert_Griffiths.dds"
+	ideology = marxist
+}
+
+1910.1.1 = {
+	complete_national_focus = 
+}
+	
+2016.6.1 = {
+	set_politics = {
+		ruling_party = conservative
+		elections_allowed = yes
+		last_election = "2015.5.7"
+		
+		parties = {
+			conservative = {			#Tories + UUP + TUV
+				popularity = 37.3
+			}
+			social_democrat = {			#Labour + SNP + SDLP + NHA
+				popularity = 35.7
+			}
+			reactionary = {				#UKIP + DUP; buffed by like 2% so that Brexit is possible
+				popularity = 15.1
+			}
+			social_liberal = {			#LibDems
+				popularity = 7.9
+			}
+			progressive = {				#Green Party + Plaid Cymru
+				popularity = 4.4
+			}
+			democratic_socialist = {	#Sinn Fein + TUSC + Respect + S(GB) + SSP
+				popularity = 0.9
+			}
+			market_liberal = {			#APNI
+				popularity = 0.2
+			}
+			nationalist = {				#English Democrat + Christian + NLP
+				popularity = 0.2
+			}
+			communist = {				#Workers Party
+				popularity = 0.1
+			}
+			fascist = {					#BNP
+				popularity = 0.1 
+			}
+		}
+	}
+	
+	create_country_leader = {
+		name = "David MacDonald"
+		picture = "david_macdonald.dds"
+		ideology = national_socialist
+	}
+	
+	create_country_leader = {
+		name = "Adam Walker"
+		picture = "adam_walker.dds"
+		ideology = proto_fascist
+	}
+	
+	create_country_leader = {
+		name = "Nigel Farage"
+		picture = "Nigel_Farage.dds"
+		ideology = counter_progressive_democrat
+	}
+	
+	create_country_leader = {
+		name = "David Cameron"
+		picture = "David_Cameron.dds"
+		ideology = fiscal_conservative
+	}
+	
+	create_country_leader = {
+		name = "Adam Brown"
+		picture = "Adam_Brown.dds"
+		ideology = libertarian
+	}
+	
+	create_country_leader = {
+		name = "Tim Farron"
+		picture = "Tim_Farron.dds"
+		ideology = centrist
+	}
+	
+	create_country_leader = {
+		name = "Jeremy Corbyn"
+		picture = "Jeremy_Corbyn.dds"
+		ideology = social_democrat_ideology
+	}
+}
+	
+	
+

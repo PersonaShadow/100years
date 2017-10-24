@@ -1,0 +1,77 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1946.1.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		USA = {
+			history = USA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {}
+			focuses = {}
+		}
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = communism
+			ideas = {}
+			focuses = {}
+		}
+		ENG = {
+			history = ENG_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {}
+			focuses = {}
+			
+		}
+		FRA = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={}
+			focuses = {}
+		}
+		CHI = {
+			history = CHI_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas = {}
+			focuses = {}
+		}
+		WGR = {
+			history = WGR_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={}
+			focuses = {}			
+		}
+		EGR = {
+			history = EGR_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={}	
+			focuses = {}		
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"JAP"={
+			minor = yes
+			history = "JAP_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {}
+			focuses = {}
+		}
+		"ITA"={
+			minor = yes
+			history = "ITA_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {}
+			focuses = {}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

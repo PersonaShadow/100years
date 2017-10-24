@@ -1,0 +1,168 @@
+spriteTypes = {
+	
+	##Continuous
+	SpriteType = { 
+		name = "continuous_air_production"
+		texturefile = "gfx/interface/goals/continuous/continuous_air_production.dds"
+	}
+	
+	SpriteType = { 
+		name = "continuous_armor_production"
+		texturefile = "gfx/interface/goals/continuous/continuous_armor_production.dds"
+	}
+	
+	SpriteType = { 
+		name = "continuous_boost_freedom"
+		texturefile = "gfx/interface/goals/continuous/continuous_boost_freedom.dds"
+	}
+	
+		SpriteType = { 
+		name = "continuous_def_against_influence"
+		texturefile = "gfx/interface/goals/continuous/continuous_def_against_influence.dds"
+	}
+	
+		SpriteType = { 
+		name = "continuous_imcrease_nu"
+		texturefile = "gfx/interface/goals/continuous/continuous_.dds"
+	}
+	
+	##Ideologies
+	SpriteType = {
+		name = "communism"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism2"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism2.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism3"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism3.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism4"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism4.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism5"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism5.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism6"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism6.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism7"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism7.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism8"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism8.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism9"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism9.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism10"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism10.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism11"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism11.dds"			
+	}
+	
+	SpriteType = {
+		name = "communism12"
+		texturefile = "gfx/interface/goals/ideologies/communism/communism12.dds"			
+	}
+	
+	SpriteType = {
+		name = "fascism"
+		texturefile = "gfx/interface/goals/ideologies/fascism/fascism.dds"			
+	}
+	SpriteType = {
+		name = "fascism2"
+		texturefile = "gfx/interface/goals/ideologies/fascism/fascism2.dds"			
+	}
+	
+	SpriteType = {
+		name = "fascism3"
+		texturefile = "gfx/interface/goals/ideologies/fascism/fascism3.dds"			
+	}
+	
+	SpriteType = {
+		name = "fascism4"
+		texturefile = "gfx/interface/goals/ideologies/fascism/fascism4.dds"			
+	}
+	
+	SpriteType = {
+		name = "fascism5"
+		texturefile = "gfx/interface/goals/ideologies/fascism/fascism5.dds"			
+	}
+	
+	SpriteType = {
+		name = "monarchy"
+		texturefile = "gfx/interface/goals/ideologies/monarchy/monarchy.dds"			
+	}
+	
+	SpriteType = {
+		name = "monarchy2"
+		texturefile = "gfx/interface/goals/ideologies/monarchy/monarchy2.dds"			
+	}
+	
+	SpriteType = {
+		name = "monarchy3"
+		texturefile = "gfx/interface/goals/ideologies/monarchy/monarchy3.dds"			
+	}
+	
+	SpriteType = {
+		name = "monarchy4"
+		texturefile = "gfx/interface/goals/ideologies/monarchy/monarchy4.dds"			
+	}
+	
+	SpriteType = {
+		name = "monarchy5"
+		texturefile = "gfx/interface/goals/ideologies/monarchy/monarchy5.dds"			
+	}
+	
+	SpriteType = {
+		name = "democracy"
+		texturefile = "gfx/interface/goals/ideologies/democracy.dds"			
+	}
+	
+	SpriteType = {
+		name = "fourth_international"
+		texturefile = "gfx/interface/goals/ideologies/fourth_international.dds"			
+	}
+	
+	SpriteType = {
+		name = "leftism"
+		texturefile = "gfx/interface/goals/ideologies/leftism.dds"			
+	}
+	
+	SpriteType = {
+		name = "libertarianism"
+		texturefile = "gfx/interface/goals/ideologies/libertarianism.dds"			
+	}
+	
+	SpriteType = {
+		name = "neutrality"
+		texturefile = "gfx/interface/goals/ideologies/neutrality.dds"			
+	}
+	
+	SpriteType = { 
+		name = ""
+		texturefile = ""
+	}
+}
